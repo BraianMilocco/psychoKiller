@@ -19,7 +19,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 - [python3-venv](https://docs.python.org/3/library/venv.html)
 
 - [Pip3](https://pypi.org/project/pip/)
-
+aa
 - DB to be defined
 
 ### Setup
