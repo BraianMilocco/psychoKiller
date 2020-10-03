@@ -32,7 +32,17 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 4. Install backend dependencies, run: ```bash pip install -r requirements.txt```
 
-5. Run migrations TODO -- _skip this step for now_
+5. Run migrations
+
+### Migrations
+
+You should run these commands the first time you set up the repo and every time that you change the model
+
+1. Create migrations: ```bash python manage.py makemigrations psychoApp```
+
+2. Run migrations: ```bash python manage.py migrate```
+
+3. Create a superuser to have access to the  [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running ```bash python manage.py createsuperuser``` and follow instructions
 
 ### Running
 
