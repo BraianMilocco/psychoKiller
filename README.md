@@ -16,23 +16,31 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 - [Python 3](https://www.python.org/)
 
+- [python3-venv](https://docs.python.org/3/library/venv.html)
+
 - [Pip3](https://pypi.org/project/pip/)
 
 - DB to be defined
 
 ### Setup
 
-1. Set up a venv file in TODO _skip this step for now_
+1. Go to Django folder, run: ```bash cd back```
 
-2. Go to Django folder, run: ```bash cd back```
+2. Install virtualenv ```bash pip3 install virtualenv```
 
-3. Install backend dependencies, run: ```bash pip install -r requirements.txt```
+3. Activate virtualenv, if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
 
-4. Run migrations TODO -- _skip this step for now_
+4. Install backend dependencies, run: ```bash pip install -r requirements.txt```
+
+5. Run migrations TODO -- _skip this step for now_
 
 ### Running
 
-1. To start the Django server run: ```bash python3 manage.py runserver```
+1. Go to Django folder, run: ```bash cd back```
+
+2. Activate virtualenv if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
+ 
+3. To start the Django server run: ```bash python3 manage.py runserver```
 
 ## Getting started - Frontend _skip this section for now_
 
@@ -40,7 +48,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 - [Node](https://nodejs.org)
 
-- [Yarn](https://yarnpkg.com/)
+- [NPM](https://www.npmjs.com/)
 
 ### Setup
 
@@ -60,6 +68,43 @@ Como manejarse con Git:
 
     -La rama main se va a actualizar mediante push request desde la rama development, ninguna otra rama se conecta con main.
 ```
+
+### Branches
+
+Please name your branches as follows `type_of_branch/developer_name/branch_description`
+
+
+**type_of_branch possible values** 
+
+* `feature` - A feature branch
+* `bugfix` - A bugfix branch
+* `chores` - Changes to the build process or auxiliary tools and libraries such as documentation generation
+* `doc` - Documentation related changes
+* `refactor` - A code change that neither fixes a bug nor adds a feature
+
+### Commits
+
+No conventions required when commiting to a branch as they will be squashed one PR is Merged, but for commmits done directly to the development branch the message should be like this:
+
+```
+type_of_commit: Main Message
+
+Optional Description
+```
+
+`type_of_commit` possible values same as `type_of_branch`
+
+### PRs
+
+Please title PR as 
+
+`type_of_branch: Main Description`
+
+Add optional Message to the body of the PR 
+
+Once approved please squash PR, title and message should follow same convention as PR.
+
+
 ## Other
 
 ```
