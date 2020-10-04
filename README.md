@@ -30,7 +30,9 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 4. Install backend dependencies, run: `bash pip install -r requirements.txt`
 
-5. Run migrations
+5. Optional: if you're using Visual Studio Code, you should activate format on save to automatically format python code with black
+
+6. Run migrations
 
 ### Migrations
 
@@ -92,7 +94,7 @@ Please name your branches as follows `type_of_branch/developer_name/branch_descr
 
 - `feature` - A feature branch
 - `bugfix` - A bugfix branch
-- `chores` - Changes to the build process or auxiliary tools and libraries such as documentation generation
+- `chores` - Changes to the build process or auxiliary tools and libraries
 - `doc` - Documentation related changes
 - `refactor` - A code change that neither fixes a bug nor adds a feature
 
