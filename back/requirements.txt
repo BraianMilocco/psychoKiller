@@ -7,3 +7,4 @@ Markdown==3.2.2
 pytz==2020.1
 sqlparse==0.3.1
 zipp==3.2.0
+black==20.8b1
