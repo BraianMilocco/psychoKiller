@@ -30,7 +30,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 4. Install backend dependencies, run: `bash pip install -r requirements.txt`
 
-5. Optional: if you're using Visual Studio Code, you should activate format on save to automatically format python code with black
+5. Optional: We have a recommended vscode setting file in `.vscode/recommended.settings.json`, we **strongy** suggest you to use that configuration, you only have to rename the file from `recommended.settings.json` to `settings.json`
 
 6. Run migrations
 
@@ -56,8 +56,16 @@ You should run these commands the first time you set up the repo and every time 
 
 #### Autofromatter
 
+We use `Black` as autoformatter
+
 1. Go to backend root folder
-2. Run `bash black ./`
+2. Run `bash black ./path-to-file` or `bash black ./back` to run in every file in the project
+
+#### Linter
+
+We use `Flake8` as linter
+
+1. Run `bash flake8 ./path-to-file` or `bash flake8 ./back` to run in every file in the project
 
 ## Getting started - Frontend _skip this section for now_
 
