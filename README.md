@@ -1,8 +1,6 @@
-
-
 # PsychoKiller
 
-This Readme is in Work In Progress 
+This Readme is in Work In Progress
 
 ## Introduction
 
@@ -24,13 +22,13 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 ### Setup
 
-1. Go to Django folder, run: ```bash cd back```
+1. Go to Django folder, run: `bash cd back`
 
-2. Install virtualenv ```bash pip3 install virtualenv```
+2. Install virtualenv `bash pip3 install virtualenv`
 
-3. Activate virtualenv, if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
+3. Activate virtualenv, if you're in linux and using bash/zsh : `bash source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
 
-4. Install backend dependencies, run: ```bash pip install -r requirements.txt```
+4. Install backend dependencies, run: `bash pip install -r requirements.txt`
 
 5. Run migrations
 
@@ -38,27 +36,26 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 You should run these commands the first time you set up the repo and every time that you change the model
 
-1. Create migrations: ```bash python3 manage.py makemigrations psychoApp```
+1. Create migrations: `bash python3 manage.py makemigrations psychoApp`
 
-2. Run migrations: ```bash python3 manage.py migrate```
+2. Run migrations: `bash python3 manage.py migrate`
 
-3. Create a superuser to have access to the  [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running ```bash python manage.py createsuperuser``` and follow instructions
+3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `bash python manage.py createsuperuser` and follow instructions
 
 ### Running
 
-1. Go to Django folder, run: ```bash cd back```
+1. Go to Django folder, run: `bash cd back`
 
-2. Activate virtualenv if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
- 
-3. To start the Django server run: ```bash python3 manage.py runserver```
+2. Activate virtualenv if you're in linux and using bash/zsh : `bash source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
+
+3. To start the Django server run: `bash python3 manage.py runserver`
 
 ### Useful commands
 
 #### Autofromatter
 
 1. Go to backend root folder
-2. Run ```bash black ./```
-
+2. Run `bash black ./`
 
 ## Getting started - Frontend _skip this section for now_
 
@@ -70,9 +67,9 @@ You should run these commands the first time you set up the repo and every time 
 
 ### Setup
 
-1. Run: ```bash cd front/psycho_front```
+1. Run: `bash cd front/psycho_front`
 
-2. Run: ```bash yarn install```
+2. Run: `bash yarn install`
 
 ### Running
 
@@ -91,14 +88,13 @@ Como manejarse con Git:
 
 Please name your branches as follows `type_of_branch/developer_name/branch_description`
 
+**type_of_branch possible values**
 
-**type_of_branch possible values** 
-
-* `feature` - A feature branch
-* `bugfix` - A bugfix branch
-* `chores` - Changes to the build process or auxiliary tools and libraries such as documentation generation
-* `doc` - Documentation related changes
-* `refactor` - A code change that neither fixes a bug nor adds a feature
+- `feature` - A feature branch
+- `bugfix` - A bugfix branch
+- `chores` - Changes to the build process or auxiliary tools and libraries such as documentation generation
+- `doc` - Documentation related changes
+- `refactor` - A code change that neither fixes a bug nor adds a feature
 
 ### Commits
 
@@ -114,14 +110,13 @@ Optional Description
 
 ### PRs
 
-Please title PR as 
+Please title PR as
 
 `type_of_branch: Main Description`
 
-Add optional Message to the body of the PR 
+Add optional Message to the body of the PR
 
 Once approved please squash PR, title and message should follow same convention as PR.
-
 
 ## Other
 
