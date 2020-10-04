@@ -120,7 +120,7 @@ Once approved please squash PR, title and message should follow same convention 
 
 [Updated draw io Model](https://drive.google.com/file/d/10hqU88j-wviGUm4WkoZvQdNqPKNEO4dV/view?usp=sharing)
 
-![Test Image 1](docs/ModeloDataBase_0_1.jpg)
+![Model](docs/ModeloDataBase_0_1.jpg)
 ## Other
 
 ```
