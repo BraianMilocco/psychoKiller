@@ -114,7 +114,13 @@ Add optional Message to the body of the PR
 
 Once approved please squash PR, title and message should follow same convention as PR.
 
+## Docs
 
+### Model
+
+[Updated draw io Model](https://drive.google.com/file/d/10hqU88j-wviGUm4WkoZvQdNqPKNEO4dV/view?usp=sharing)
+
+![Model](docs/ModeloDataBase_0_1.jpg)
 ## Other
 
 ```
