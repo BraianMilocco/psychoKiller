@@ -28,7 +28,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 3. Activate virtualenv, if you're in linux and using bash/zsh : `bash source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
 
-4. Install backend dependencies, run: `bash pip install -r requirements.txt`
+4. Install backend dependencies, run: `bash pip3 install -r requirements.txt`
 
 5. Optional: We have a recommended vscode setting file in `.vscode/recommended.settings.json`, we **strongy** suggest you to use that configuration, you only have to rename the file from `recommended.settings.json` to `settings.json`
 
