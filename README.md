@@ -102,7 +102,7 @@ Please name your branches as follows `type_of_branch/developer_name/branch_descr
 
 - `feature` - A feature branch
 - `bugfix` - A bugfix branch
-- `chores` - Changes to the build process or auxiliary tools and libraries
+- `chore` - Changes to the build process or auxiliary tools and libraries
 - `doc` - Documentation related changes
 - `refactor` - A code change that neither fixes a bug nor adds a feature
 
