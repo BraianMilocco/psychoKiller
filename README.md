@@ -123,6 +123,8 @@ Once approved please squash PR, title and message should follow same convention 
 ![Model](docs/ModeloDataBase_0_1.jpg)
 ## Other
 
+
+
 ```
 Como manejarse con el front y el back:
 -En el .gitignore estan los ignore para react y django
