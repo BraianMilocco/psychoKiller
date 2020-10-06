@@ -7,24 +7,43 @@ This Readme is in Work In Progress
 # Links
 
 [- Links](#Introduction)
+
 [- Getting Started - Backend](#Getting-Started-Back )
+
 [- Prerequisites](#Prerequisites-Back)
+
 [- Setup](#Setup-Back)
+
 [- Migrations](#Migrations-Back)
+
 [- Running](#Running-Back)
+
 [- Getting started-Frontend _skip this section for now_](#Getting-started-Frontend)
+
 [-Prerequisites](#Prerequisites-Front)
+
 [ - Getting Started - Backend](#Getting-Started-Backend)
+
 [- Prerequisites](#Prerequisites-Front)
+
 [- Setup](#Setup-Front)
+
 [- Migrations](#Migrations-Front)
+
 [- Running](#Running-Front)
+
 [- Contributing](#Contributing)
+
 [- Branches](#Branches)
+
 [- Commits](#Commits)
+
 [- PRs](#PRs)
+
 [- Docs](#Docs)
+
 [- Model](#Model)
+
 [- Others](#Others)
 
 ## Introduction
@@ -149,9 +168,5 @@ Once approved please squash PR, title and message should follow same convention 
 
 
 ```
-Como manejarse con el front y el back:
--En el .gitignore estan los ignore para react y django
--En la carpeta back generar un virtualenv con el nombre 'venv' con python3 (para que lo tome el .gitignore), una ves abierto el venv,
-instalar las dependencias desde requirements.txt.
--En la carpeta front crear un proyecto en react y despues cargar pullear los datos de la app, o llevar los módulos.
+In work...
 ```
