@@ -4,6 +4,29 @@
 
 This Readme is in Work In Progress 
 
+# Links
+
+[ - Links](#Introduction)
+    [ - Getting Started - Backend](#Getting Started - Backend)
+    [- Prerequisites](#Prerequisites Back)
+    [- Setup](#Setup Back)
+    [- Migrations](#Migrations Back)
+    [- Running](#Running Back)
+[- Getting started - Frontend _skip this section for now_](#Getting started - Frontend _skip this section for now_)
+    [-Prerequisites](#)
+    [ - Getting Started - Backend](#Getting Started - Backend)
+    [- Prerequisites](#Prerequisites Front)
+    [- Setup](#Setup Front)
+    [- Migrations](#Migrations Front)
+    [- Running](#Running Front)
+[- Contributing](#Contributing)
+[- Branches](#Branches)
+[- Commits](#Commits)
+[- PRs](#PRs)
+[- Docs](#Docs)
+[- Model](#Model)
+[- Others](#Others)
+
 ## Introduction
 
 PsychoKiller is a tool that provides a way to manage and carry out psychology tests
