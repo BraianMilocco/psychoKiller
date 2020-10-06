@@ -2,15 +2,49 @@
 
 This Readme is in Work In Progress
 
+# Links
+
+[- Links](#Introduction)
+
+
+[- Getting Started - Backend](#Getting-Started-Back )
+
+[ Prerequisites ](#Prerequisites-Back)
+[|| Setup ](#Setup-Back)
+[|| Migrations ](#Migrations-Back)
+[|| Running ](#Running-Back)
+
+
+[- Getting started-Frontend _skip this section for now_](#Getting-started-Frontend)
+
+[ Prerequisites ](#Prerequisites-Front)
+[|| Setup ](#Setup-Front)
+[|| Migrations ](#Migrations-Front)
+[|| Running ](#Running-Front)
+
+[- Contributing](#Contributing)
+
+[- Branches](#Branches)
+
+[- Commits](#Commits)
+
+[- PRs](#PRs)
+
+[- Docs](#Docs)
+
+[- Model](#Model)
+
+[- Others](#Others)
+
 ## Introduction
 
 PsychoKiller is a tool that provides a way to manage and carry out psychology tests
 
 It is developed as a web app using [Django](https://www.djangoproject.com/) as a backend framework and [React](https://reactjs.org/) to build the UI
 
-## Getting started - Backend
+## Getting-started-Backend
 
-### Prerequisites
+### Prerequisites-Back
 
 - [Python 3](https://www.python.org/)
 
@@ -20,7 +54,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 - DB to be defined
 
-### Setup
+### Setup-Back
 
 1. Go to Django folder, run: `bash cd back`
 
@@ -34,7 +68,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 6. Run migrations
 
-### Migrations
+### Migrations-Back
 
 You should run these commands the first time you set up the repo and every time that you change the model
 
@@ -44,7 +78,7 @@ You should run these commands the first time you set up the repo and every time 
 
 3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `bash python manage.py createsuperuser` and follow instructions
 
-### Running
+### Running-Back
 
 1. Go to Django folder, run: `bash cd back`
 
@@ -67,21 +101,21 @@ We use `Flake8` as linter
 
 1. Run `bash flake8 ./path-to-file` or `bash flake8 ./back` to run in every file in the project
 
-## Getting started - Frontend _skip this section for now_
+## Getting-started-Frontend _skip this section for now_
 
-### Prerequisites
+### Prerequisites-Front
 
 - [Node](https://nodejs.org)
 
 - [NPM](https://www.npmjs.com/)
 
-### Setup
+### Setup-Front
 
 1. Run: `bash cd front/psycho_front`
 
 2. Run: `bash yarn install`
 
-### Running
+### Running-Front
 
 ## Contributing
 
@@ -139,9 +173,5 @@ Once approved please squash PR, title and message should follow same convention 
 ## Other
 
 ```
-Como manejarse con el front y el back:
--En el .gitignore estan los ignore para react y django
--En la carpeta back generar un virtualenv con el nombre 'venv' con python3 (para que lo tome el .gitignore), una ves abierto el venv,
-instalar las dependencias desde requirements.txt.
--En la carpeta front crear un proyecto en react y despues cargar pullear los datos de la app, o llevar los módulos.
+In work...
 ```
