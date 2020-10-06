@@ -11,18 +11,18 @@ This Readme is in Work In Progress
 
 [- Getting Started - Backend](#Getting-Started-Back )
 
-[- Prerequisites](#Prerequisites-Back)
-[- Setup](#Setup-Back)
-[- Migrations](#Migrations-Back)
-[- Running](#Running-Back)
+[ Prerequisites ](#Prerequisites-Back)
+[|| Setup ](#Setup-Back)
+[|| Migrations ](#Migrations-Back)
+[|| Running ](#Running-Back)
 
 
 [- Getting started-Frontend _skip this section for now_](#Getting-started-Frontend)
 
-[-Prerequisites](#Prerequisites-Front)
-[- Setup](#Setup-Front)
-[- Migrations](#Migrations-Front)
-[- Running](#Running-Front)
+[ Prerequisites ](#Prerequisites-Front)
+[|| Setup ](#Setup-Front)
+[|| Migrations ](#Migrations-Front)
+[|| Running ](#Running-Front)
 
 [- Contributing](#Contributing)
 
