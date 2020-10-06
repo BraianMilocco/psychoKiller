@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import *
+from .models import Answer, Option, Patient, Question, TemplateTest, Terapist, Test
 
 models_to_register = (Answer, Option, Patient, Question, TemplateTest, Terapist, Test)
 admin.site.register(models_to_register)

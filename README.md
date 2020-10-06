@@ -1,8 +1,6 @@
-
-
 # PsychoKiller
 
-This Readme is in Work In Progress 
+This Readme is in Work In Progress
 
 ## Introduction
 
@@ -24,33 +22,50 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 ### Setup
 
-1. Go to Django folder, run: ```bash cd back```
+1. Go to Django folder, run: `bash cd back`
 
-2. Install virtualenv ```bash pip3 install virtualenv```
+2. Install virtualenv `bash pip3 install virtualenv`
 
-3. Activate virtualenv, if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
+3. Activate virtualenv, if you're in linux and using bash/zsh : `bash source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
 
-4. Install backend dependencies, run: ```bash pip install -r requirements.txt```
+4. Install backend dependencies, run: `bash pip3 install -r requirements.txt`
 
-5. Run migrations
+5. Optional: We have a recommended vscode setting file in `.vscode/recommended.settings.json`, we **strongy** suggest you to use that configuration, you only have to rename the file from `recommended.settings.json` to `settings.json`
+
+6. Run migrations
 
 ### Migrations
 
 You should run these commands the first time you set up the repo and every time that you change the model
 
-1. Create migrations: ```bash python manage.py makemigrations psychoApp```
+1. Create migrations: `bash python3 manage.py makemigrations psychoApp`
 
-2. Run migrations: ```bash python manage.py migrate```
+2. Run migrations: `bash python3 manage.py migrate`
 
-3. Create a superuser to have access to the  [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running ```bash python manage.py createsuperuser``` and follow instructions
+3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `bash python manage.py createsuperuser` and follow instructions
 
 ### Running
 
-1. Go to Django folder, run: ```bash cd back```
+1. Go to Django folder, run: `bash cd back`
 
-2. Activate virtualenv if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
- 
-3. To start the Django server run: ```bash python3 manage.py runserver```
+2. Activate virtualenv if you're in linux and using bash/zsh : `bash source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
+
+3. To start the Django server run: `bash python3 manage.py runserver`
+
+### Useful commands
+
+#### Autofromatter
+
+We use `Black` as autoformatter
+
+1. Go to backend root folder
+2. Run `bash black ./path-to-file` or `bash black ./back` to run in every file in the project
+
+#### Linter
+
+We use `Flake8` as linter
+
+1. Run `bash flake8 ./path-to-file` or `bash flake8 ./back` to run in every file in the project
 
 ## Getting started - Frontend _skip this section for now_
 
@@ -62,9 +77,9 @@ You should run these commands the first time you set up the repo and every time 
 
 ### Setup
 
-1. Run: ```bash cd front/psycho_front```
+1. Run: `bash cd front/psycho_front`
 
-2. Run: ```bash yarn install```
+2. Run: `bash yarn install`
 
 ### Running
 
@@ -83,14 +98,13 @@ Como manejarse con Git:
 
 Please name your branches as follows `type_of_branch/developer_name/branch_description`
 
+**type_of_branch possible values**
 
-**type_of_branch possible values** 
-
-* `feature` - A feature branch
-* `bugfix` - A bugfix branch
-* `chores` - Changes to the build process or auxiliary tools and libraries such as documentation generation
-* `doc` - Documentation related changes
-* `refactor` - A code change that neither fixes a bug nor adds a feature
+- `feature` - A feature branch
+- `bugfix` - A bugfix branch
+- `chore` - Changes to the build process or auxiliary tools and libraries
+- `doc` - Documentation related changes
+- `refactor` - A code change that neither fixes a bug nor adds a feature
 
 ### Commits
 
@@ -106,11 +120,11 @@ Optional Description
 
 ### PRs
 
-Please title PR as 
+Please title PR as
 
 `type_of_branch: Main Description`
 
-Add optional Message to the body of the PR 
+Add optional Message to the body of the PR
 
 Once approved please squash PR, title and message should follow same convention as PR.
 
@@ -121,9 +135,8 @@ Once approved please squash PR, title and message should follow same convention 
 [Updated draw io Model](https://drive.google.com/file/d/10hqU88j-wviGUm4WkoZvQdNqPKNEO4dV/view?usp=sharing)
 
 ![Model](docs/ModeloDataBase_0_1.jpg)
+
 ## Other
-
-
 
 ```
 Como manejarse con el front y el back:
