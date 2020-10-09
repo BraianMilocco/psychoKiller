@@ -34,7 +34,7 @@ This Readme is in Work In Progress
 
 [- Model](#Model)
 
-[- LoadData](#LoadData)
+[- Seed](#Seed)
 
 
 [- Others](#Others)
@@ -173,7 +173,7 @@ Once approved please squash PR, title and message should follow same convention 
 
 ![Model](docs/ModeloDataBase_0_1.jpg)
 
-### LoadData
+### Seed
 
 Provide the DB with actual data when you first migrate it
     The information is get it from "psychoApp/fixtures/..", is in JSON format

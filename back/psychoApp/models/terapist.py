@@ -60,9 +60,6 @@ class MyAccountManager(BaseUserManager):
         user.save(using=self.db)
         return user
 
-    """ def get_by_natural_key(self, username):
-       return self.get(username=username)"""
-
 
 # Observations
 # is_active in development can be True by default, in actual work should be false, until
