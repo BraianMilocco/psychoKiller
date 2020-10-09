@@ -3,8 +3,11 @@ name: code_check
 on: [pull_request]
 
 jobs:
-  lint:
+  backend_linting:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: back/
     steps:
       - uses: actions/checkout@v1
       - uses: grantmcconnaughey/lintly-flake8-github-action@v1.0
@@ -15,4 +18,4 @@ jobs:
           failIf: new
       - uses: jpetrucciani/black-check@master
         with:
-          path: ".back/"
+          path: "./"
