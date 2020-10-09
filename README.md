@@ -34,7 +34,6 @@ This Readme is in Work In Progress
 
 [- Seed](#Seed)
 
-
 [- Others](#Others)
 
 ## Introduction
@@ -57,13 +56,13 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 ### Setup-Back
 
-1. Go to Django folder, run: ```bash cd back```
+1. Go to Django folder, run: `cd back`
 
-2. Install virtualenv ```bash pip3 install virtualenv```
+2. Install virtualenv `pip3 install virtualenv`
 
-3. Activate virtualenv, if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
+3. Activate virtualenv, if you're in linux and using bash/zsh : `source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
 
-4. Install backend dependencies, run: ```bash pip3 install -r requirements.txt```
+4. Install backend dependencies, run: `pip3 install -r requirements.txt`
 
 5. Optional: We have a recommended vscode setting file in `.vscode/recommended.settings.json`, we **strongy** suggest you to use that configuration, you only have to rename the file from `recommended.settings.json` to `settings.json`
 
@@ -73,19 +72,19 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 You should run these commands the first time you set up the repo and every time that you change the model
 
-1. Create migrations: ```bash python3 manage.py makemigrations psychoApp```
+1. Create migrations: `python3 manage.py makemigrations psychoApp`
 
-2. Run migrations: ```bash python3 manage.py migrate```
+2. Run migrations: `python3 manage.py migrate`
 
-3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running ```bash python manage.py createsuperuser``` and follow instructions
+3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `python manage.py createsuperuser` and follow instructions
 
 ### Running-Back
 
-1. Go to Django folder, run: ```bash cd back```
+1. Go to Django folder, run: `cd back`
 
-2. Activate virtualenv if you're in linux and using bash/zsh : ```bash source venv/bin/activate``` if not check [here](https://docs.python.org/3/library/venv.html)
+2. Activate virtualenv if you're in linux and using bash/zsh : `source venv/bin/activate` if not check [here](https://docs.python.org/3/library/venv.html)
 
-3. To start the Django server run: ```bash python3 manage.py runserver```
+3. To start the Django server run: `python3 manage.py runserver`
 
 ### Useful commands
 
@@ -94,13 +93,13 @@ You should run these commands the first time you set up the repo and every time 
 We use `Black` as autoformatter
 
 1. Go to backend root folder
-2. Run ```bash black ./path-to-file``` or ```bash black ./back``` to run in every file in the project
+2. Run `black ./path-to-file` or `black ./back` to run in every file in the project
 
 #### Linter
 
 We use `Flake8` as linter
 
-1. Run ```bash flake8 ./path-to-file``` or ```bash flake8 ./back``` to run in every file in the project
+1. Run `flake8 ./path-to-file` or `flake8 ./back` to run in every file in the project
 
 ## Getting-started-Frontend _skip this section for now_
 
@@ -112,9 +111,9 @@ We use `Flake8` as linter
 
 ### Setup-Front
 
-1. Run: ```bash cd front/psycho_front```
+1. Run: `cd front/psycho_front`
 
-2. Run: ```bash yarn install```
+2. Run: `yarn install`
 
 ### Running-Front
 
@@ -174,13 +173,15 @@ Once approved please squash PR, title and message should follow same convention 
 ### Seed
 
 Provide the DB with actual data when you first migrate it
-    The information is get it from "psychoApp/fixtures/..", is in JSON format
+The information is get it from "psychoApp/fixtures/..", is in JSON format
 
     Example, load the SCL90 test template, and their questions:
+
 ```
     python manage.py loaddate --format json SCL90__template_test
     python manage.py loaddata --format json SCL90__questions
-``` 
+```
+
     Observation: Be careful with the dependences i the db, in this case
     the questions of SCL90 have like Foregin_key the  SCL90 template_test PK
     Thats why template_test is load first.
