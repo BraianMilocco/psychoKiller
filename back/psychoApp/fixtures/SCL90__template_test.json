@@ -1,0 +1,9 @@
+[
+    {
+        "model": "psychoApp.TemplateTest",
+        "pk": 1,
+        "fields": {
+          "name": "SCL90"
+        }
+      }
+]

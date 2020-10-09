@@ -34,6 +34,9 @@ This Readme is in Work In Progress
 
 [- Model](#Model)
 
+[- Seed](#Seed)
+
+
 [- Others](#Others)
 
 ## Introduction
@@ -169,6 +172,20 @@ Once approved please squash PR, title and message should follow same convention 
 [Updated draw io Model](https://drive.google.com/file/d/10hqU88j-wviGUm4WkoZvQdNqPKNEO4dV/view?usp=sharing)
 
 ![Model](docs/ModeloDataBase_0_1.jpg)
+
+### Seed
+
+Provide the DB with actual data when you first migrate it
+    The information is get it from "psychoApp/fixtures/..", is in JSON format
+
+    Example, load the SCL90 test template, and their questions:
+```
+    python manage.py loaddate --format json SCL90__template_test
+    python manage.py loaddata --format json SCL90__questions
+``` 
+    Observation: Be careful with the dependences i the db, in this case
+    the questions of SCL90 have like Foregin_key the  SCL90 template_test PK
+    Thats why template_test is load first.
 
 ## Other
 
