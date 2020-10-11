@@ -66,7 +66,7 @@ class MyAccountManager(BaseUserManager):
 # we can confirm that the profesional_registretion is real.
 
 
-class Terapist(AbstractBaseUser):
+class Therapist(AbstractBaseUser):
 
     # Our fields
     email = models.CharField("Mail", max_length=50, unique=True)
