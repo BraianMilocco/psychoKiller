@@ -6,14 +6,17 @@ class Patient(models.Model):
     first_name = models.CharField("Nombre", max_length=30)
     last_name = models.CharField("Apellido", max_length=30)
     gender = models.CharField("Género", max_length=50)
-    civil_status = models.CharField("Estado cívil", max_length=50, blank=True, null=True)
-    birthdate = models.DateField("Fecha de Nacimiento", auto_now=False, auto_now_add=False)
+    civil_status = models.CharField(
+        "Estado cívil", max_length=50, blank=True, null=True
+    )
+    birthdate = models.DateField(
+        "Fecha de Nacimiento", auto_now=False, auto_now_add=False
+    )
     education = models.CharField("educación", max_length=50, blank=True, null=True)
     phone_number = models.CharField(
         "Numero de Telefono", max_length=30, blank=True, null=True
     )
     email = models.CharField("Mail", max_length=30, blank=True, null=True)
-
 
     therapist = models.ForeignKey(Therapist, on_delete=models.CASCADE)
 
@@ -23,4 +26,3 @@ class Patient(models.Model):
     class Meta:
         verbose_name = "Paciente"
         verbose_name_plural = "Pacientes"
-        
