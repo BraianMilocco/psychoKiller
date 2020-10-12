@@ -50,7 +50,7 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 1. Go to Django folder, run: `cd back`
 
-2. Install virtualenv `poetry install `
+2. Install virtualenv `poetry install`
 
 3. Optional: We have a recommended vscode setting file in `.vscode/recommended.settings.json`, we **strongy** suggest you to use that configuration, you only have to rename the file from `recommended.settings.json` to `settings.json`
 
@@ -91,15 +91,15 @@ In order to load data you need to run `poetry python manage.py loaddata --format
 
 We use `Black` as autoformatter
 
-1. Go to backend root folder
+1. Go to Django folder, run: `cd back`
 
-2. Run `poetry black ./path-to-file` or `poetry black ./back` to run in every file in the project
+2. Run `poetry black ./path-to-file` or `poetry black ./` to run in every file in the project
 
 ##### Linter
 
-We use `Flake8` as linter
+1. Go to Django folder, run: `cd back`
 
-1. Run `poetry flake8 ./path-to-file` or `poetry flake8 ./back` to run in every file in the project
+1. Run `poetry flake8 ./path-to-file` or `poetry flake8 ./` to run in every file in the project
 
 ## Frontend
 
