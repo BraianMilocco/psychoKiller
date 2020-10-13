@@ -8,4 +8,7 @@ class Test(models.Model):
 
     therapist = models.ForeignKey(Therapist, on_delete=models.CASCADE)
     patient = models.ForeignKey(Patient, on_delete=models.CASCADE)
-    tenplate_test = models.ForeignKey(TemplateTest, on_delete=models.CASCADE)
+    template_test = models.ForeignKey(TemplateTest, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.template_test + self.therapist

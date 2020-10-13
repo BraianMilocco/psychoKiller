@@ -14,7 +14,7 @@ class Question(models.Model):
     question_type = models.CharField(
         "Tipo de Pregunta", max_length=2, choices=QUESTION_TYPE_OPTIONS, default=OPEN
     )
-
+    number = models.IntegerField("numero")
     template = models.ForeignKey(TemplateTest, on_delete=models.CASCADE)
     options = models.ManyToManyField(Option, verbose_name="Opciones", blank=True)
 
