@@ -1,5 +1,5 @@
 from django.db import models
-from . import TemplateTest
+from . import TemplateTest, Option
 
 
 class Question(models.Model):
@@ -16,6 +16,7 @@ class Question(models.Model):
     )
 
     template = models.ForeignKey(TemplateTest, on_delete=models.CASCADE)
+    option= models.ManyToManyField(Option, verbose_name="Opciones")
 
     def __str__(self):
         return self.query
