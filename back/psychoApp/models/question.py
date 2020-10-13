@@ -16,7 +16,7 @@ class Question(models.Model):
     )
 
     template = models.ForeignKey(TemplateTest, on_delete=models.CASCADE)
-    options= models.ManyToManyField(Option, verbose_name="Opciones", blank=True)
+    options = models.ManyToManyField(Option, verbose_name="Opciones", blank=True)
 
     def __str__(self):
         return self.query

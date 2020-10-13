@@ -3,7 +3,7 @@ from .models import Answer, Option, Patient, Question, TemplateTest, Therapist, 
 from .admin__list_display import QuestionAdmin, TherapistAdmin
 
 
-models_to_register = (Answer, Option, Patient,  TemplateTest, Test)
+models_to_register = (Answer, Option, Patient, TemplateTest, Test)
 
 admin.site.register(models_to_register)
 

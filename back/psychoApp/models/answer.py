@@ -1,7 +1,8 @@
 from django.db import models
 from . import Question, Test, Option
 
-#If the answe
+# If the answe
+
 
 class Answer(models.Model):
     response = models.TextField("Respuesta", blank=True, null=True)
@@ -13,8 +14,7 @@ class Answer(models.Model):
     def __str__(self):
         return self.response
 
-
     class Meta:
         verbose_name = "Respuesta"
         verbose_name_plural = "Respuestas"
-        unique_together = ('question', 'test')
+        unique_together = ("question", "test")

@@ -1,7 +1,6 @@
 from django.db import models
 
 
-
 class Option(models.Model):
     choise = models.TextField("Opción")
     point = models.IntegerField("Puntos", blank=True, null=True)
@@ -12,4 +11,3 @@ class Option(models.Model):
     class Meta:
         verbose_name = "Opción"
         verbose_name_plural = "Opciones"
-        
