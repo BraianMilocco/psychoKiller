@@ -1,8 +1,6 @@
 from django.db import models
 from . import Question, Test, Option
 
-# If the answe
-
 
 class Answer(models.Model):
     response = models.TextField("Respuesta", blank=True, null=True)

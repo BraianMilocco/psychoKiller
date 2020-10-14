@@ -1,6 +1,6 @@
 from django.contrib import admin
 from .models import Answer, Option, Patient, Question, TemplateTest, Therapist, Test
-from .admin__list_display import (
+from .list_display__admin import (
     QuestionAdmin,
     TherapistAdmin,
     TestAdmin,

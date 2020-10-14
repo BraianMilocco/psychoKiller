@@ -1,5 +1,5 @@
 from .template_test import TemplateTest
-from .terapist import Therapist
+from .therapist import Therapist
 from .patient import Patient
 from .option import Option
 from .question import Question
