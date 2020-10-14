@@ -81,7 +81,7 @@ class Therapist(AbstractBaseUser):
     professional_registration = models.CharField(
         "Matricula", max_length=30, unique=True
     )
-    degree= models.CharField("Título", max_length=50)
+    degree = models.CharField("Título", max_length=50)
     # Fields that need to be overwrite for the extension of AbstracBaseUser
     date_joined = models.DateTimeField(
         verbose_name="Fecha de creacion", auto_now_add=True
