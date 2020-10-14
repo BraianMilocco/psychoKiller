@@ -60,30 +60,30 @@ It is developed as a web app using [Django](https://www.djangoproject.com/) as a
 
 You should run these commands the first time you set up the repo and every time that you change the model
 
-1. Create migrations: `poetry python manage.py makemigrations psychoApp`
+1. Create migrations: `poetry run python manage.py makemigrations psychoApp`
 
-2. Run migrations: `poetry python manage.py migrate`
+2. Run migrations: `poetry run python manage.py migrate`
 
-3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `python manage.py createsuperuser` and follow instructions
+3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `python run manage.py createsuperuser` and follow instructions
 
 4. Run seeds
 
 #### Seeds
 
 This provides actual data to the database once created. Seed data is located in `back/psychoApp/fixtures/` in JSON format
-In order to load data you need to run `poetry python manage.py loaddata --format json data_file_name`
+In order to load data you need to run `poetry run python manage.py loaddata --format json data_file_name`
 
 **Important Note:** The order in which the seeds are run is important as once depends from the other because of relationships so you should load data in this order
 
-1. Load template test data: `poetry python manage.py loaddata --format json SCL90__template_test`
+1. Load template test data: `poetry run python manage.py loaddata --format json SCL90__template_test`
 
-2. Load questions data: `poetry python manage.py loaddata --format json SCL90__questions`
+2. Load questions data: `poetry run python manage.py loaddata --format json SCL90__questions`
 
 #### Running
 
 1. Go to Django folder, run: `cd back`
 
-2. To start the Django server run: `poetry pythonmanage.py runserver`
+2. To start the Django server run: `poetry run python manage.py runserver`
 
 #### Useful commands
 
