@@ -3,8 +3,8 @@ from django.contrib.auth.base_user import AbstractBaseUser
 from django.contrib.auth.base_user import BaseUserManager
 
 #   First will be class that need to be overwrite for using the AbstractBaseUser as
-#   super class of our terapist class.
-#   Secondly will be the actual Terapist Class
+#   super class of our Therapist class.
+#   Secondly will be the actual Therapist Class
 
 
 class MyAccountManager(BaseUserManager):
@@ -14,6 +14,7 @@ class MyAccountManager(BaseUserManager):
         username,
         last_name,
         professional_registration,
+        degree,
         phone_number=None,
         password=None,
     ):
@@ -30,6 +31,7 @@ class MyAccountManager(BaseUserManager):
             username=username,
             last_name=last_name,
             professional_registration=professional_registration,
+            degree=degree,
             phone_number=phone_number,
         )
         user.set_password(password)
@@ -42,6 +44,7 @@ class MyAccountManager(BaseUserManager):
         username,
         last_name,
         professional_registration,
+        degree,
         password,
         phone_number=None,
     ):
@@ -51,6 +54,7 @@ class MyAccountManager(BaseUserManager):
             username=username,
             last_name=last_name,
             professional_registration=professional_registration,
+            degree=degree,
         )
         user.phone_number = None
         user.is_admin = True
@@ -66,7 +70,7 @@ class MyAccountManager(BaseUserManager):
 # we can confirm that the profesional_registretion is real.
 
 
-class Terapist(AbstractBaseUser):
+class Therapist(AbstractBaseUser):
 
     # Our fields
     email = models.CharField("Mail", max_length=50, unique=True)
@@ -77,6 +81,7 @@ class Terapist(AbstractBaseUser):
     professional_registration = models.CharField(
         "Matricula", max_length=30, unique=True
     )
+    degree = models.CharField("Título", max_length=50)
     # Fields that need to be overwrite for the extension of AbstracBaseUser
     date_joined = models.DateTimeField(
         verbose_name="Fecha de creacion", auto_now_add=True
@@ -106,5 +111,5 @@ class Terapist(AbstractBaseUser):
         return "%s %s" % (self.username, self.last_name)
 
     class Meta:
-        verbose_name = "Terapista"
-        verbose_name_plural = "Terapistas"
+        verbose_name = "Especialista"
+        verbose_name_plural = "Especialistas"

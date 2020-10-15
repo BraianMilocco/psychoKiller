@@ -6,7 +6,10 @@
       "fields": {
         "query": "Dolores de cabeza.",
         "question_type": "CL", 
-        "template": 1
+        "number": 1,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -15,7 +18,10 @@
       "fields": {
         "query": "Nerviosismo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 2,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -24,7 +30,10 @@
       "fields": {
         "query": "Pensamientos desagradables que no se iban de mi cabeza.",
         "question_type": "CL", 
-        "template": 1
+        "number": 3,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -33,7 +42,10 @@
       "fields": {
         "query": "Sensación de mareo o desmayo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 4,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -42,7 +54,10 @@
       "fields": {
         "query": "Falta de interés en relaciones sexuales.",
         "question_type": "CL", 
-        "template": 1
+        "number": 5,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -51,7 +66,10 @@
       "fields": {
         "query": "Criticar a los demás.",
         "question_type": "CL", 
-        "template": 1
+        "number": 6,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -60,7 +78,10 @@
       "fields": {
         "query": "Sentir que otro puede controlar mis pensamientos.",
         "question_type": "CL", 
-        "template": 1
+        "number": 7,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -69,7 +90,10 @@
       "fields": {
         "query": "Sentir que otros son culpables de lo que me pasa.",
         "question_type": "CL", 
-        "template": 1
+        "number": 8,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -78,7 +102,10 @@
       "fields": {
         "query": "Tener dificultad para memorizar cosas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 9,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -87,7 +114,10 @@
       "fields": {
         "query": "Estar preocupado/a por mi falta de ganas para hacer algo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 10,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -96,7 +126,10 @@
       "fields": {
         "query": "Sentirme enojado/a, malhumorado/a.",
         "question_type": "CL", 
-        "template": 1
+        "number": 11,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -105,7 +138,10 @@
       "fields": {
         "query": "Dolores en el pecho.",
         "question_type": "CL", 
-        "template": 1
+        "number": 12,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -114,7 +150,10 @@
       "fields": {
         "query": "Miedo a los espacios abiertos o las calles.",
         "question_type": "CL", 
-        "template": 1
+        "number": 13,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -123,7 +162,10 @@
       "fields": {
         "query": "Sentirme con muy pocas energías.",
         "question_type": "CL", 
-        "template": 1
+        "number": 14,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -132,7 +174,10 @@
       "fields": {
         "query": "Pensar en quitarme la vida.",
         "question_type": "CL", 
-        "template": 1
+        "number": 15,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -140,8 +185,11 @@
       "pk": 16,
       "fields": {
         "query": "Escuchar voces que otras personas no oyen.",
-        "question_type": "CL", 
-        "template": 1
+        "question_type": "CL",
+        "number": 16, 
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -150,7 +198,10 @@
       "fields": {
         "query": "Temblores en mi cuerpo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 17,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -159,7 +210,10 @@
       "fields": {
         "query": "Perder la confianza en la mayoría de las personas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 18,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -168,7 +222,10 @@
       "fields": {
         "query": "No tener ganas de comer.",
         "question_type": "CL", 
-        "template": 1
+        "number": 19,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -177,7 +234,10 @@
       "fields": {
         "query": "Llorar por cualquier cosa.",
         "question_type": "CL", 
-        "template": 1
+        "number": 20,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -186,7 +246,10 @@
       "fields": {
         "query": "Sentirme incómodo/a con personas del otro sexo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 21,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -195,268 +258,323 @@
       "fields": {
         "query": "Sentirmme atrapada/o o encerrado/a.",
         "question_type": "CL", 
-        "template": 1
-      }
-    },
-    {
-      "model": "psychoApp.question",
-      "pk": 22,
-      "fields": {
-        "query": "Asustarme de repente sin razón alguna.",
-        "question_type": "CL", 
-        "template": 1
+        "number": 22,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 23,
       "fields": {
-        "query": "Explotar y no poder controlarme.",
+        "query": "Asustarme de repente sin razón alguna.",
         "question_type": "CL", 
-        "template": 1
+        "number": 23,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 24,
       "fields": {
-        "query": "Tener miedo a salir solo/a de mi casa.",
+        "query": "Explotar y no poder controlarme.",
         "question_type": "CL", 
-        "template": 1
+        "number": 24,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 25,
       "fields": {
-        "query": "Sentirme culpable por cosas que ocurren.",
+        "query": "Tener miedo a salir solo/a de mi casa.",
         "question_type": "CL", 
-        "template": 1
+        "number": 25,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 26,
       "fields": {
-        "query": "Dolores en la espalda.",
+        "query": "Sentirme culpable por cosas que ocurren.",
         "question_type": "CL", 
-        "template": 1
+        "number": 26,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 27,
       "fields": {
-        "query": "No poder terminar las cosas que empecé a hacer.",
+        "query": "Dolores en la espalda.",
         "question_type": "CL", 
-        "template": 1
+        "number": 27,
+        
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 28,
       "fields": {
-        "query": "Sentirme solo/a.",
+        "query": "No poder terminar las cosas que empecé a hacer.",
         "question_type": "CL", 
-        "template": 1
+        "number": 28,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 29,
       "fields": {
-        "query": "Sentirme triste.",
+        "query": "Sentirme solo/a.",
         "question_type": "CL", 
-        "template": 1
+        "number": 29,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 30,
       "fields": {
-        "query": "Preocuparme demasiado por todo lo que pasa.",
+        "query": "Sentirme triste.",
         "question_type": "CL", 
-        "template": 1
+        "number": 30,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 31,
       "fields": {
-        "query": "No tener interés por nada.",
+        "query": "Preocuparme demasiado por todo lo que pasa.",
         "question_type": "CL", 
-        "template": 1
+        "number": 31,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 32,
       "fields": {
-        "query": "Tener miedos.",
+        "query": "No tener interés por nada.",
         "question_type": "CL", 
-        "template": 1
+        "number": 32,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 33,
       "fields": {
-        "query": "Sentirme herido en mis sentimientos.",
+        "query": "Tener miedos.",
         "question_type": "CL", 
-        "template": 1
+        "number": 33,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 34,
       "fields": {
-        "query": "Creer que la gente sabe qué estoy pensando.",
+        "query": "Sentirme herido en mis sentimientos.",
         "question_type": "CL", 
-        "template": 1
+        "number": 34,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 35,
       "fields": {
-        "query": "Sentir que no me comprenden.",
+        "query": "Creer que la gente sabe qué estoy pensando.",
         "question_type": "CL", 
-        "template": 1
+        "number": 35,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 36,
       "fields": {
-        "query": "Sentir que no caigo bien a la gente, que no les gusto.",
+        "query": "Sentir que no me comprenden.",
         "question_type": "CL", 
-        "template": 1
+        "number": 36,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 37,
       "fields": {
-        "query": "Tener que hacer las cosas muy despacio para estar seguro/a de que están bien hechas.",
+        "query": "Sentir que no caigo bien a la gente, que no les gusto.",
         "question_type": "CL", 
-        "template": 1
+        "number": 37,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 38,
       "fields": {
-        "query": "Mi corazón late muy fuerte, se acelera.",
+        "query": "Tener que hacer las cosas muy despacio para estar seguro/a de que están bien hechas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 38,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 39,
       "fields": {
-        "query": "Náuseas o dolor de estómago.",
+        "query": "Mi corazón late muy fuerte, se acelera.",
         "question_type": "CL", 
-        "template": 1
+        "number": 39,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 40,
       "fields": {
-        "query": "Sentirme inferior a los demás.",
+        "query": "Náuseas o dolor de estómago.",
         "question_type": "CL", 
-        "template": 1
+        "number": 40,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 41,
       "fields": {
-        "query": "Calambres en manos, brazos o piernas.",
+        "query": "Sentirme inferior a los demás.",
         "question_type": "CL", 
-        "template": 1
+        "number": 41,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 42,
       "fields": {
-        "query": "Sentir que me vigilan o que hablan de mí.",
+        "query": "Calambres en manos, brazos o piernas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 42,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 43,
       "fields": {
-        "query": "Tener problemas para dormirme.",
+        "query": "Sentir que me vigilan o que hablan de mí.",
         "question_type": "CL", 
-        "template": 1
+        "number": 43,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 44,
       "fields": {
-        "query": "Tener que controlar una o más veces lo que hago.",
+        "query": "Tener problemas para dormirme.",
         "question_type": "CL", 
-        "template": 1
+        "number": 44,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 45,
       "fields": {
-        "query": "Tener dificultades para tomar decisiones.",
+        "query": "Tener que controlar una o más veces lo que hago.",
         "question_type": "CL", 
-        "template": 1
+        "number": 45,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 46,
       "fields": {
-        "query": "Tener miedo de viajar en tren, ómnibus o subterráneos.",
+        "query": "Tener dificultades para tomar decisiones.",
         "question_type": "CL", 
-        "template": 1
+        "number": 46,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 47,
       "fields": {
-        "query": "Tener dificultades para respirar bien.",
+        "query": "Tener miedo de viajar en tren, ómnibus o subterráneos.",
         "question_type": "CL", 
-        "template": 1
+        "number": 47,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 48,
       "fields": {
-        "query": "Ataques de frío o de calor.",
+        "query": "Tener dificultades para respirar bien.",
         "question_type": "CL", 
-        "template": 1
+        "number": 48,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 49,
       "fields": {
-        "query": "Tener que evitar acercarme a algunos lugares o actividades porque me",
+        "query": "Ataques de frío o de calor.",
         "question_type": "CL", 
-        "template": 1
+        "number": 49,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
       "model": "psychoApp.question",
       "pk": 50,
       "fields": {
-        "query": "dan miedo.",
+        "query": "Tener que evitar acercarme a algunos lugares o actividades porque me",
         "question_type": "CL", 
-        "template": 1
+        "number": 50,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -465,7 +583,9 @@
       "fields": {
         "query": "Sentir que mi mente queda en blanco.",
         "question_type": "CL", 
-        "template": 1
+        "number": 51,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -474,7 +594,9 @@
       "fields": {
         "query": "Hormigueos en alguna parte del cuerpo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 52,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -483,7 +605,9 @@
       "fields": {
         "query": "Tener un nudo en la garganta.",
         "question_type": "CL", 
-        "template": 1
+        "number": 53,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -492,7 +616,9 @@
       "fields": {
         "query": "Perder las esperanzas en el futuro.",
         "question_type": "CL", 
-        "template": 1
+        "number": 54,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -501,7 +627,9 @@
       "fields": {
         "query": "Dificultades para concentrarme en lo que estoy haciendo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 55,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -510,7 +638,9 @@
       "fields": {
         "query": "Sentir flojedad, debilidad, en partes de mi cuerpo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 56,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -519,7 +649,9 @@
       "fields": {
         "query": "Sentirme muy nervioso/a, agitado/a",
         "question_type": "CL", 
-        "template": 1
+        "number": 57,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -528,7 +660,9 @@
       "fields": {
         "query": "Sentir mis brazos y piernas muy pesados",
         "question_type": "CL", 
-        "template": 1
+        "number": 58,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -537,7 +671,9 @@
       "fields": {
         "query": "Pensar que me estoy por morir.",
         "question_type": "CL", 
-        "template": 1
+        "number": 59,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -546,7 +682,9 @@
       "fields": {
         "query": "Comer demasiado.",
         "question_type": "CL", 
-        "template": 1
+        "number": 60,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -555,7 +693,9 @@
       "fields": {
         "query": "Sentirme incómodo/a cuando me miran o hablan de mí.",
         "question_type": "CL", 
-        "template": 1
+        "number": 61,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -564,7 +704,9 @@
       "fields": {
         "query": "Tener ideas, pensamientos que no son los míos.",
         "question_type": "CL", 
-        "template": 1
+        "number": 62,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -573,7 +715,9 @@
       "fields": {
         "query": "Necesitar golpear o lastimar a alguien.",
         "question_type": "CL", 
-        "template": 1
+        "number": 63,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -582,7 +726,9 @@
       "fields": {
         "query": "Despertarme muy temprano por la mañana sin necesidad.",
         "question_type": "CL", 
-        "template": 1
+        "number": 64,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -591,7 +737,9 @@
       "fields": {
         "query": "Repetir muchas veces algo que hago: contar, lavarme, tocar cosas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 65,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -600,7 +748,9 @@
       "fields": {
         "query": "Dormir con problemas, muy inquieto/a.",
         "question_type": "CL", 
-        "template": 1
+        "number": 66,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -609,7 +759,9 @@
       "fields": {
         "query": "Necesitar romper o destrozar cosas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 67,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -618,7 +770,9 @@
       "fields": {
         "query": "Tener ideas, pensamientos que los demás no entienden.",
         "question_type": "CL", 
-        "template": 1
+        "number": 68,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -627,7 +781,9 @@
       "fields": {
         "query": "Estar muy pendiente de lo que los demás puedan pensar de mí.",
         "question_type": "CL", 
-        "template": 1
+        "number": 69,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -636,7 +792,9 @@
       "fields": {
         "query": "Sentirme incómodo/a en lugares donde hay mucha gente.",
         "question_type": "CL", 
-        "template": 1
+        "number": 70,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -645,7 +803,9 @@
       "fields": {
         "query": "Sentir que todo me cuesta mucho esfuerzo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 71,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -654,7 +814,9 @@
       "fields": {
         "query": "Tener ataques de mucho miedo o de pánico.",
         "question_type": "CL", 
-        "template": 1
+        "number": 72,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -663,7 +825,9 @@
       "fields": {
         "query": "Sentirme mal si estoy comiendo o bebiendo en público.",
         "question_type": "CL", 
-        "template": 1
+        "number": 73,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -672,7 +836,9 @@
       "fields": {
         "query": "Meterme muy seguido en discusiones.",
         "question_type": "CL", 
-        "template": 1
+        "number": 74,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -681,7 +847,9 @@
       "fields": {
         "query": "Ponerme nervioso/a cuando estoy solo/a.",
         "question_type": "CL", 
-        "template": 1
+        "number": 75,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -690,7 +858,9 @@
       "fields": {
         "query": "Sentir que los demás no me valoran como merezco.",
         "question_type": "CL", 
-        "template": 1
+        "number": 76,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -699,7 +869,9 @@
       "fields": {
         "query": "Sentirme solo/a aún estando con gente.",
         "question_type": "CL", 
-        "template": 1
+        "number": 77,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -708,7 +880,9 @@
       "fields": {
         "query": "Estar inquieto/a; no poder estar sentado/a sin moverme.",
         "question_type": "CL", 
-        "template": 1
+        "number": 78,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -717,6 +891,7 @@
       "fields": {
         "query": "Sentirme un/a inútil.",
         "question_type": "CL", 
+        "number": 79,
         "template": 1
       }
     },
@@ -726,7 +901,9 @@
       "fields": {
         "query": "Sentir que algo malo me va a pasar.",
         "question_type": "CL", 
-        "template": 1
+        "number": 8,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -735,6 +912,7 @@
       "fields": {
         "query": "Gritar o tirar cosas.",
         "question_type": "CL", 
+        "number": 81,
         "template": 1
       }
     },
@@ -744,7 +922,9 @@
       "fields": {
         "query": "Miedo a desmayarme en medio de la gente.",
         "question_type": "CL", 
-        "template": 1
+        "number": 82,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -753,7 +933,9 @@
       "fields": {
         "query": "Sentir que se aprovechan de mí si los dejo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 83,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -762,7 +944,9 @@
       "fields": {
         "query": "Pensar cosas sobre el sexo que me molestan.",
         "question_type": "CL", 
-        "template": 1
+        "number": 84,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -771,7 +955,9 @@
       "fields": {
         "query": "Sentir que debo ser castigado/a por mis pecados.",
         "question_type": "CL", 
-        "template": 1
+        "number": 85,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -780,7 +966,9 @@
       "fields": {
         "query": "Tener imágenes y pensamientos que me dan miedo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 86,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -789,7 +977,9 @@
       "fields": {
         "query": "Sentir que algo anda mal en mi cuerpo.",
         "question_type": "CL", 
-        "template": 1
+        "number": 87,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -798,7 +988,9 @@
       "fields": {
         "query": "Sentirme alejado/a de las demás personas.",
         "question_type": "CL", 
-        "template": 1
+        "number": 88,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -807,7 +999,9 @@
       "fields": {
         "query": "Sentirme culpable.",
         "question_type": "CL", 
-        "template": 1
+        "number": 89,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     },
     {
@@ -816,7 +1010,9 @@
       "fields": {
         "query": "Pensar que en mi cabeza hay algo que no funciona bien.",
         "question_type": "CL", 
-        "template": 1
+        "number": 90,
+        "template": 1,
+        "options": [1, 2, 3, 4, 5]
       }
     }
   ]

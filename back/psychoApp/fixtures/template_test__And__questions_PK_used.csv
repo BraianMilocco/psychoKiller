@@ -1,2 +1,2 @@
-template_test name, pk, questions pk start, questions pk end
-SCL90, 1, 1 , 90
+template_test name, pk, questions pk start, questions pk end, options pk start, option pk end
+SCL90, 1, 1 , 90, 1, 5

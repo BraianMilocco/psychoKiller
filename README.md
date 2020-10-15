@@ -77,7 +77,9 @@ In order to load data you need to run `poetry run python manage.py loaddata --fo
 
 1. Load template test data: `poetry run python manage.py loaddata --format json SCL90__template_test`
 
-2. Load questions data: `poetry run python manage.py loaddata --format json SCL90__questions`
+2. Load options data: `poetry run python manage.py loaddata --format json SCL90__options`
+
+3. Load questions data: `poetry run python manage.py loaddata --format json SCL90__questions`
 
 #### Running
 
@@ -93,13 +95,13 @@ We use `Black` as autoformatter
 
 1. Go to Django folder, run: `cd back`
 
-2. Run `poetry black ./path-to-file` or `poetry black ./` to run in every file in the project
+2. Run `poetry run black ./path-to-file` or `poetry run black ./` to run in every file in the project
 
 ##### Linter
 
 1. Go to Django folder, run: `cd back`
 
-1. Run `poetry flake8 ./path-to-file` or `poetry flake8 ./` to run in every file in the project
+1. Run `poetry run flake8 ./path-to-file` or `poetry run flake8 ./` to run in every file in the project
 
 ## Frontend
 

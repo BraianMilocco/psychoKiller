@@ -125,4 +125,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static"), os.path.join(BASE_DIR, "me
 
 
 # Defining my default user
-AUTH_USER_MODEL = "psychoApp.Terapist"
+AUTH_USER_MODEL = "psychoApp.Therapist"

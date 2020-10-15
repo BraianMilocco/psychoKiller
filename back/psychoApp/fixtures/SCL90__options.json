@@ -1,0 +1,42 @@
+[
+    {
+        "model": "psychoApp.option",
+        "pk": 1,
+        "fields": {
+          "choise": "Nada",
+          "point": 1
+        }
+      },
+      {
+        "model": "psychoApp.option",
+        "pk": 2,
+        "fields": {
+          "choise": "Muy Poco",
+          "point": 2
+        }
+      },
+      {
+        "model": "psychoApp.option",
+        "pk": 3,
+        "fields": {
+          "choise": "Poco",
+          "point": 3
+        }
+      },
+      {
+        "model": "psychoApp.option",
+        "pk": 4,
+        "fields": {
+          "choise": "Bastante",
+          "point": 4
+        }
+      },
+      {
+        "model": "psychoApp.option",
+        "pk": 5,
+        "fields": {
+          "choise": "Mucho",
+          "point": 5
+        }
+      }
+]
