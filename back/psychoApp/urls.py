@@ -9,7 +9,7 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 # url to try serializers and views delete once in production
 router.register(r"test_serializer", Questions, basename="questions")
-router.register(r'template_test', Test_to_do, basename="test" )
+router.register(r"template_test", Test_to_do, basename="test")
 
 urlpatterns = [
     path("", welcome, name="welcome"),
