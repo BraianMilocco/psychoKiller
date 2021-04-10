@@ -10,3 +10,8 @@ class TemplateTestSerializer(serializers.ModelSerializer):
     class Meta:
         model = TemplateTest
         fields = ["name", "concept", 'questions']
+
+class BasicTemplateTestSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = TemplateTest
+        fields = "__all__"  #["name", "concept"]
