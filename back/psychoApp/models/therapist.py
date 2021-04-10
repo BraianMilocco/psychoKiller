@@ -44,8 +44,8 @@ class MyAccountManager(BaseUserManager):
         username,
         last_name,
         professional_registration,
-        degree,
         password,
+        degree = "El mas pijudo",
         phone_number=None,
     ):
         user = self.create_user(

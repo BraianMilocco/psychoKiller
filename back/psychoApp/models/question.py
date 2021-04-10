@@ -15,7 +15,7 @@ class Question(models.Model):
         "Tipo de Pregunta", max_length=2, choices=QUESTION_TYPE_OPTIONS, default=OPEN
     )
     number = models.IntegerField("Número")
-    template = models.ForeignKey(TemplateTest, on_delete=models.CASCADE)
+    template = models.ForeignKey(TemplateTest,related_name='questions', on_delete=models.CASCADE)
     options = models.ManyToManyField(Option, verbose_name="Opciones", blank=True)
 
     def __str__(self):
