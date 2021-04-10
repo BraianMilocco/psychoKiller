@@ -12,7 +12,7 @@ class Patient(models.Model):
     birthdate = models.DateField(
         "Fecha de Nacimiento", auto_now=False, auto_now_add=False
     )
-    education = models.CharField("educación", max_length=50, blank=True, null=True)
+    education = models.CharField("Educación", max_length=50, blank=True, null=True)
     phone_number = models.CharField(
         "Numero de Telefono", max_length=30, blank=True, null=True
     )
