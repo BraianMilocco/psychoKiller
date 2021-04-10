@@ -17,4 +17,4 @@ class TemplateTestSerializer(serializers.ModelSerializer):
 class BasicTemplateTestSerializer(serializers.ModelSerializer):
     class Meta:
         model = TemplateTest
-        fields = "__all__"  # ["name", "concept"]
+        fields = "__all__"
