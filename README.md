@@ -64,7 +64,7 @@ You should run these commands the first time you set up the repo and every time 
 
 2. Run migrations: `poetry run python manage.py migrate`
 
-3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `python run manage.py createsuperuser` and follow instructions
+3. Create a superuser to have access to the [Administrative Interface](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) running `poetry run python manage.py createsuperuser` and follow instructions
 
 4. Run seeds
 
