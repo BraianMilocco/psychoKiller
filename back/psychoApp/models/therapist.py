@@ -45,7 +45,8 @@ class MyAccountManager(BaseUserManager):
         last_name,
         professional_registration,
         password,
-        degree="El mas pijudo",
+        # TODO patch to current issue where superadmin creation doesn't ask for degree, this should be fixed
+        degree="admin",
         phone_number=None,
     ):
         user = self.create_user(
