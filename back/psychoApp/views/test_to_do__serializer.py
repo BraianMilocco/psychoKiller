@@ -11,6 +11,7 @@ class Test_to_do(viewsets.ModelViewSet):
 
     def get_serializer_class(self):
         if self.action == "retrieve":
+           
             return TemplateTestSerializer
         else:
             return BasicTemplateTestSerializer
